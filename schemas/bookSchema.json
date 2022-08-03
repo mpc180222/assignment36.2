@@ -1,0 +1,93 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "isbn",
+        "amazon_url",
+        "author",
+        "language",
+        "pages",
+        "publisher",
+        "title",
+        "year"
+    ],
+    "properties": {
+        "isbn": {
+            "type": "string",
+            "default": "",
+            "title": "The isbn Schema",
+            "examples": [
+                "string"
+            ]
+        },
+        "amazon_url": {
+            "type": "string",
+            "default": "",
+            "title": "The amazon_url Schema",
+            "examples": [
+                "www.amazon.ca"
+            ]
+        },
+        "author": {
+            "type": "string",
+            "default": "",
+            "title": "The author Schema",
+            "examples": [
+                "darcy"
+            ]
+        },
+        "language": {
+            "type": "string",
+            "default": "",
+            "title": "The language Schema",
+            "examples": [
+                "A green door"
+            ]
+        },
+        "ages": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The ages Schema",
+            "examples": [
+                12.5
+            ]
+        },
+        "publisher": {
+            "type": "string",
+            "default": "",
+            "title": "The publisher Schema",
+            "examples": [
+                "barnes"
+            ]
+        },
+        "title": {
+            "type": "string",
+            "default": "",
+            "title": "The title Schema",
+            "examples": [
+                "a"
+            ]
+        },
+        "year": {
+            "type": "integer",
+            "default": 0,
+            "title": "The year Schema",
+            "examples": [
+                1970
+            ]
+        }
+    },
+    "examples": [{
+        "isbn": "string",
+        "amazon_url": "www.amazon.ca",
+        "author": "darcy",
+        "language": "A green door",
+        "ages": 12.5,
+        "publisher": "barnes",
+        "title": "a",
+        "year": 1970
+    }]
+}
